@@ -1,0 +1,57 @@
+.my-custom-button {
+  background-color: rgba(114, 121, 125, 0.844); /* Couleur de fond du bouton */
+  color: rgba(236, 231, 231, 0.859); /* Couleur du texte du bouton */
+  padding: 10px 20px; /* Espacement à l'intérieur du bouton */
+  font-size: 16px; /* Taille de la police du texte */
+  border: none; /* Supprimer la bordure du bouton */
+  cursor: pointer; /* Curseur de type main pour indiquer que le bouton est cliquable */
+}
+
+.my-custom-button:hover {
+  background-color: #000102; /* Changement de couleur au survol */
+}
+
+/* Styles pour le modal de categories dans la navbar  */
+/* Styles pour le modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%; /* Ajustez la largeur du modal selon vos besoins */
+  max-width: 300px; /* Définissez une largeur maximale si nécessaire */
+  max-height: 80%; /* Ajustez la hauteur maximale du modal selon vos besoins */
+  overflow-y: auto; /* Ajoutez une barre de défilement si nécessaire */
+  text-align: center; /* Centre le contenu du modal */
+}
+
+/* Style pour la liste à puces d'images */
+.modal-content ul {
+  list-style: none;
+  padding: 100;
+  display: flex; /* Utiliser une disposition en ligne (flexbox) */
+  justify-content: center; /* Centrer les éléments horizontalement */
+  flex-wrap: wrap; /* Permettre aux éléments de passer à la ligne si nécessaire */
+}
+
+/* Style pour chaque élément de la liste à puces */
+.modal-content ul li {
+  margin-right: 30px; /* Ajouter un espace entre les images */
+}
+
+
+

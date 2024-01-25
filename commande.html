@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire de Commande</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Formulaire de Commande</h2>
+        <form action="commande.php" method="post">
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="adresse">Adresse :</label>
+            <input type="text" id="adresse" name="adresse" required>
+
+            <label for="numtel">Numéro de Téléphone :</label>
+            <input type="tel" id="numtel" name="numtel" required>
+
+            <button type="submit">Passer la commande</button>
+        </form>
+    </div>
+
+</body>
+</html>
